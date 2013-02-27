@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Programming | Art, Atoms, and Axioms]]></title>
+  <link href="http://ataber.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://ataber.github.com/"/>
+  <updated>2013-02-27T01:16:38-08:00</updated>
+  <id>http://ataber.github.com/</id>
+  <author>
+    <name><![CDATA[Andrew Taber]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Code, Ship, Repeat Fallacy]]></title>
+    <link href="http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy/"/>
+    <updated>2013-02-27T00:47:00-08:00</updated>
+    <id>http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy</id>
+    <content type="html"><![CDATA[<p>Around campus I've been seeing a lot of Facebook t-shirts that say simply
+"Code, Ship, Repeat". That got me thinking: do companies actually
+mean to prescripe this recipe to employees and use it as a branding tool? 
+Nowhere in the Caesarian terseness of that mantra is there a reference to
+testing, validation, refactoring, or even making sure that the code you write is
+going to be used by anybody. 
+<br>
+<p>It's neat to have a three-word slogan, but slogans can have an enormous impact on 
+how people see their work. Imagine a civil engineer wearing a t-shirt that said
+"Draw, Build, Repeat". I wouldn't trust that engineer with a sizeable project. 
+Programming is no different except the stakes of failure are more chronic and
+less dramatic. Instead of buildings collapsing, poor software engineering leads
+to wasted weeks. Not as news-worthy, sure. But tragic nonetheless.
+<br>
+<p>I believe ideologies towards programming like "Code, Ship, Repeat" are
+dangerous and inevitably lead to cancerous code growth. So instead, I propose a
+new slogan for mid-life companies no longer focused on producing a MVP:
+"Refactor, Delete, Repeat". 
+<br>
+<p>Because a product that isn't minimal isn't viable for long. 
+
+]]></content>
+  </entry>
+  
+</feed>
