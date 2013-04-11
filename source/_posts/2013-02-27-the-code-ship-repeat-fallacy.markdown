@@ -5,7 +5,7 @@ date: 2013-02-27 00:47
 comments: true
 categories: Programming
 ---
-<p>Around campus I've been seeing a lot of Facebook t-shirts that say simply
+<p>Around campus I've been seeing a lot of Palantir t-shirts that say simply
 "Code, Ship, Repeat". That got me thinking: do companies actually
 mean to prescripe this recipe to employees and use it as a branding tool? 
 Nowhere in the Caesarian terseness of that mantra is there a reference to
