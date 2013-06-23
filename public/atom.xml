@@ -4,7 +4,7 @@
   <title><![CDATA[TaberBlog]]></title>
   <link href="http://ataber.github.com/atom.xml" rel="self"/>
   <link href="http://ataber.github.com/"/>
-  <updated>2013-04-11T16:20:44-07:00</updated>
+  <updated>2013-05-31T12:32:54-07:00</updated>
   <id>http://ataber.github.com/</id>
   <author>
     <name><![CDATA[Andrew Taber]]></name>
@@ -12,6 +12,92 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Treat Job Prospects Like Humans]]></title>
+    <link href="http://ataber.github.com/blog/2013/04/25/treat-job-prospects-like-humans/"/>
+    <updated>2013-04-25T17:06:00-07:00</updated>
+    <id>http://ataber.github.com/blog/2013/04/25/treat-job-prospects-like-humans</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been applying to a lot of jobs lately, and I&#8217;ve noticed that a
+surprising number of shops, even startups, do not treat me like a human. One
+place (a small startup with no HR department) even sent me an email a month and
+a half after I&#8217;d applied with instructions about how to sign up for some service
+they use to screen job applicants. Not even a &#8220;thank you for applying&#8221;, not even
+a personalized email. Not even on time (I&#8217;ve accepted another offer already) and
+not even with a reference to the original company I was applying to (only by
+googling the person who sent the email did I find out what company they were
+from).</p>
+
+
+<p>And you complain about not being able to find talent?</p>
+
+
+<p>I call bullshit.</p>
+
+
+<p>I answered a job post on HackerNews and I got a canned response that was
+faulty in every way. And you expect me to believe you&#8217;re going to treat your
+customers, investors, and employees any better?</p>
+
+
+<p>Or how about another company which posts jobs to HackerNews just about every
+week with a puzzle in it that is completely incomprehensible and must be solved
+<strong>TO EVEN EMAIL THEM</strong>? Obviously all your employees are automatons, because
+presumably you&#8217;re treating me like you treat them.</p>
+
+
+<p>The digital age has been dramatically labor-reducing in a lot of ways. But
+so many people don&#8217;t leverage the technology we have today <strong>to make
+interactions more, rather than less, personal</strong>. AirBnB does this, why can&#8217;t
+everyone?</p>
+
+
+<p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Estopp that Man!]]></title>
+    <link href="http://ataber.github.com/blog/2013/04/14/estopp-that-man/"/>
+    <updated>2013-04-14T15:51:00-07:00</updated>
+    <id>http://ataber.github.com/blog/2013/04/14/estopp-that-man</id>
+    <content type="html"><![CDATA[<p>Ever had your heart broken by promises that were left unfulfilled? In legal
+theory there&#8217;s a concept called &#8220;Estoppel&#8221; that precludes someone from escaping
+from the consequences of their promises, even if the promises are informal and
+not technically legally binding. In other words, even if you didn&#8217;t sign a
+contract saying you&#8217;d do something, if someone&#8217;s counting on you to do that
+thing, you can&#8217;t get out of it just because you didn&#8217;t squiggle your name on a
+piece of paper.</p>
+
+
+<p>I encountered this concept last semester in my jurisprudence class, and I&#8217;ve
+got to say, I wish we had a similar concept in computer programming. I think
+everyone can agree the most frustrating parts of dynamic languages is their lack
+of explicit contracts between functions. In Python, for instance, you have to
+explicitly document what you expect each function to take in and output. If you
+don&#8217;t you get bizarre, often silent, errors. In C, however, the prototype of
+each function declares a certain type contract you must abide by.</p>
+
+
+<p>So how does the average Python programmer deal with an implicit type
+contract? Usually I see docstrings that beg for proper usage, or for simpler
+programs nothing at all in the hopes that anyone smart enough can decipher the
+purpose and requirements of their code. I&#8217;m not satisfied with this! In legal
+terms there&#8217;s nothing estopping (that&#8217;s how you say it!) a developer to change
+their program&#8217;s contracts (except perhaps the ever-present-but-low probability that
+one of their users is an axe-murderer!).</p>
+
+
+<p>I propose a solution to the un-estoppe-able tragedy of dynamic languages: algorithmically making
+explicit the dependencies of functions and printing these dependencies in the
+prototype of functions. In other words, you can have the benefit of dynamic
+languages as you&#8217;re writing your program, but when it&#8217;s time to publish to
+Github, a program either discovers your functions&#8217; dependencies or prompts you
+to declare them and then makes it easy for other developers to understand your
+code.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Picking the Right Words]]></title>
@@ -50,7 +136,7 @@ expression is worth the sacrifice.</p>
     <link href="http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy/"/>
     <updated>2013-02-27T00:47:00-08:00</updated>
     <id>http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy</id>
-    <content type="html"><![CDATA[<p>Around campus I&#8217;ve been seeing a lot of Palantir t-shirts that say simply
+    <content type="html"><![CDATA[<p>Around campus I&#8217;ve been seeing a lot of t-shirts that say simply
 &#8220;Code, Ship, Repeat&#8221;. That got me thinking: do companies actually
 mean to prescripe this recipe to employees and use it as a branding tool? 
 Nowhere in the Caesarian terseness of that mantra is there a reference to

@@ -3,7 +3,7 @@ layout: post
 title: "Picking the Right Words"
 date: 2013-04-11 15:53
 comments: true
-categories: Programming, Math 
+categories: Programming 
 ---
 
 <p>In mathematics, the units of technology are words. Progress is measured in

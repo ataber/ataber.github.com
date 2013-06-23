@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | TaberBlog]]></title>
   <link href="http://ataber.github.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://ataber.github.com/"/>
-  <updated>2013-04-11T16:20:44-07:00</updated>
+  <updated>2013-05-31T12:32:54-07:00</updated>
   <id>http://ataber.github.com/</id>
   <author>
     <name><![CDATA[Andrew Taber]]></name>
@@ -14,11 +14,86 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Estopp that Man!]]></title>
+    <link href="http://ataber.github.com/blog/2013/04/14/estopp-that-man/"/>
+    <updated>2013-04-14T15:51:00-07:00</updated>
+    <id>http://ataber.github.com/blog/2013/04/14/estopp-that-man</id>
+    <content type="html"><![CDATA[<p>Ever had your heart broken by promises that were left unfulfilled? In legal
+theory there's a concept called "Estoppel" that precludes someone from escaping
+from the consequences of their promises, even if the promises are informal and
+not technically legally binding. In other words, even if you didn't sign a
+contract saying you'd do something, if someone's counting on you to do that
+thing, you can't get out of it just because you didn't squiggle your name on a
+piece of paper.</p>
+
+
+<p>I encountered this concept last semester in my jurisprudence class, and I've
+got to say, I wish we had a similar concept in computer programming. I think
+everyone can agree the most frustrating parts of dynamic languages is their lack
+of explicit contracts between functions. In Python, for instance, you have to
+explicitly document what you expect each function to take in and output. If you
+don't you get bizarre, often silent, errors. In C, however, the prototype of
+each function declares a certain type contract you must abide by.</p>
+
+
+<p>So how does the average Python programmer deal with an implicit type
+contract? Usually I see docstrings that beg for proper usage, or for simpler
+programs nothing at all in the hopes that anyone smart enough can decipher the
+purpose and requirements of their code. I'm not satisfied with this! In legal
+terms there's nothing estopping (that's how you say it!) a developer to change
+their program's contracts (except perhaps the ever-present-but-low probability that
+one of their users is an axe-murderer!).</p>
+
+
+<p>I propose a solution to the un-estoppe-able tragedy of dynamic languages: algorithmically making
+explicit the dependencies of functions and printing these dependencies in the
+prototype of functions. In other words, you can have the benefit of dynamic
+languages as you're writing your program, but when it's time to publish to
+Github, a program either discovers your functions' dependencies or prompts you
+to declare them and then makes it easy for other developers to understand your
+code.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Picking the Right Words]]></title>
+    <link href="http://ataber.github.com/blog/2013/04/11/picking-the-right-words/"/>
+    <updated>2013-04-11T15:53:00-07:00</updated>
+    <id>http://ataber.github.com/blog/2013/04/11/picking-the-right-words</id>
+    <content type="html"><![CDATA[<p>In mathematics, the units of technology are words. Progress is measured in
+terms of the elegance with which complex ideas can be represented. And this is
+dependent on the quality of words we choose to represent our ideas. </p>
+
+
+<p>That's why I enjoy mathematics: the central struggle is to reframe complex
+problems in ways where it is trivial to imagine a solution. The goal of any
+research program is to find just the right linguistic prism (or sieve) to seperate the
+muddled reality of a problem into its constituent components.</p>
+
+
+<p>In programming, I often find that "seperating things that change from things
+that stay the same" is a common refrain, and it rhymes with the one
+mathematicians have been preaching for some time. Let's just be more
+straightforward about it: like math, the goal of computer science is to find the right words to
+express yourself.</p>
+
+
+<p>I like this perspective because it constrains programmers to realize that
+everything from data structures to frameworks like Rails exist because they are
+in some way "the right words" for a given situation. These may not be the
+fastest ways of solving the problem, but sometimes the benefit of clear
+expression is worth the sacrifice.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Code, Ship, Repeat Fallacy]]></title>
     <link href="http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy/"/>
     <updated>2013-02-27T00:47:00-08:00</updated>
     <id>http://ataber.github.com/blog/2013/02/27/the-code-ship-repeat-fallacy</id>
-    <content type="html"><![CDATA[<p>Around campus I've been seeing a lot of Palantir t-shirts that say simply
+    <content type="html"><![CDATA[<p>Around campus I've been seeing a lot of t-shirts that say simply
 "Code, Ship, Repeat". That got me thinking: do companies actually
 mean to prescripe this recipe to employees and use it as a branding tool? 
 Nowhere in the Caesarian terseness of that mantra is there a reference to
